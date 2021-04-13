@@ -80,7 +80,8 @@ a {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
+  font-size: 20px;
 }
 
 .navigation {
@@ -93,10 +94,11 @@ nav {
   margin-right: 22px;
 }
 
-.navigation-title {
-  display: inline-block;
-}
 
 a {
   text-decoration: none;
+}
+
+.active-link {
+  color: white;
 }
